@@ -657,7 +657,7 @@ section#homeSliderSection:hover .owl-nav button.owl-prev {
 
 #bestOffer button.owl-next {
     position: absolute;
-    right: -50;
+    right: -50px;
     top: 50%;
 }
 
