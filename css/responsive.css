@@ -472,4 +472,97 @@
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    li.menu-toggle {
+        border: 1px solid #f5f1f1;
+        float: left;
+    }
+
+
+    .main-menu {
+        display: block;
+        position: absolute;
+        min-width: 150px;
+        background: #000;
+        z-index: 911;
+        height: 100%;
+        text-align: left;
+        transition: 0.3s all ease;
+
+    }
+
+    .main-menu ul li {
+        display: block;
+        border-bottom: 1px solid;
+        padding: 10px 0px;
+        background: #000;
+    }
+
+    .main-menu ul li a {
+        color: #fff;
+        font-size: 24px;
+
+    }
+
+
+    .navigation-area {
+        padding-bottom: 10px;
+    }
+
+    .main-menu {
+        display: none;
+
+    }
+
+    #main-menu i.fa.fa-close {
+        font-size: 34px;
+        z-index: 99999;
+        text-align: right;
+        display: block;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+    .menu-toggle {
+        width: 70px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 46px;
+    color: #000;
+    }
+
+    .menu-toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 70px;
+        display: block;
+        text-align: center;
+
+    }
+
+
+
+
+
 }
