@@ -1,9 +1,7 @@
 
 /* // Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) {
-    .container {
-        /* max-width: 100%; */
-    }
+  
      .header-top-area li a {
          font-size: 12px;
     }
@@ -135,9 +133,6 @@
         padding:3%;
         font-size: 14px;
         display: block;
-    }
-    .header-info-box li a .fa{
-        /* font-size: 100%; */
     }
     .search{
         width:75%;
