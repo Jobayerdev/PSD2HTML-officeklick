@@ -1,161 +1,195 @@
-
 @media (max-width: 575px) {
-    
-.header-info-box {
-    padding-top: 20px;
-}
-.header-top-area ul li {
-    text-align: left;
-    display: block;
-}
+    .header-info-box {
+        padding-top: 20px;
+    }
 
+    .header-top-area ul li {
+        text-align: left;
+        display: block;
+    }
 
-.footerBox {
-    margin-bottom: 30px;
+    .footerBox {
+        margin-bottom: 30px;
+    }
 }
-}
-
 
 /* // Medium devices (tablets, less than 992px) */
- @media (max-width: 991.98px) {
-  
-     .header-top-area li a {
-         font-size: 12px;
+@media (max-width: 991.98px) {
+
+    /*=======Start header-top-area=======*/
+    .header-top-area li a {
+        font-size: 12px;
     }
-     .header-info-box ul {
-         text-align: right;
+
+    .header-info-box {
+        padding-top: 20px;
     }
-     .categoriesContent {
-         margin-bottom: 30px;
+
+    .header-info-box ul {
+        text-align: right;
     }
-     .categoriesContent:nth-child(3) {
-         margin: 0;
-    }
-     .categoriesContent:nth-child(4) {
-         margin: 0;
-    }
-     .categoriesContent {
-         margin-bottom: 30px;
-    }
-     .categoriesContent:nth-child(3) {
-         margin: 0;
-    }
-     .categoriesContent:nth-child(4) {
-         margin: 0;
-    }
-     #ourservice .service-icon {
-         width: 25px;
-         height: 25px;
-    }
-     .single-service i.fa {
-         padding: 8px;
-    }
-     .single-service h4 {
-         font-size: 16px;
-         margin-right: -20px;
-    }
-     #bestOffer button.owl-next {
-         right: -20;
-    }
-     #bestOffer button.owl-prev {
-         left: -20px;
-    }
-     #bestOffer button.owl-next {
-         right: -20;
-    }
-     #bestOffer button.owl-prev {
-         left: -20px;
-    }
-     div#testmonial-Slider button.owl-next {
-         right: -30px;
-    }
-     div#testmonial-Slider .owl-nav button {
-         border: none;
-         color: #ffffff;
-    }
-     #testmonial-Slider button.owl-prev {
-         left: -30px;
-    }
-     li.menu-toggle {
-         border: 1px solid #f5f1f1;
-         float: left;
-    }
-     .main-menu {
-         display: block;
-         position: absolute;
-         min-width: 150px;
-         background: #000;
-         z-index: 911;
-         height: 100%;
-         text-align: left;
-         transition: 0.3s all ease;
-    }
-     .main-menu ul li {
-         display: block;
-         border-bottom: 1px solid;
-         padding: 10px 0px;
-         background: #000;
-    }
-     .main-menu ul li a {
-         color: #fff;
-         font-size: 24px;
-    }
-     .navigation-area {
-         padding-bottom: 10px;
-    }
-     .main-menu {
-         display: none;
-    }
-     #main-menu i.fa.fa-close {
-         font-size: 34px;
-         z-index: 99999;
-         text-align: right;
-         display: block;
-         cursor: pointer;
-    }
-    .toggle-menu li {
-        cursor: pointer;
-        color: #000;
+
+    .header-info-box li:first-child {
         border: none;
     }
-     /* .menu-toggle:before {
-         content: '\f0c9';
-         font-family: fontAwesome;
-         line-height: 70px;
-         font-size: 34px;
-         display: block;
-         text-align: center;
-    } */
-    .header-info-box li:first-child{
-        border: none;
+
+    .search {
+        width: 100% !important;
+        margin-left: auto;
     }
-    .search{
-        width: 100%;
-    }
+
     .header-top-area ul {
         text-align: left;
     }
-    
-    
+
     .navigation-area img {
         max-width: 100%;
         padding: 0;
         margin: 0;
     }
+
+    /*=======Start main-menu=======*/
+    .main-menu {
+        display: block;
+        position: absolute;
+        min-width: 150px;
+        background: #000;
+        z-index: 911;
+        height: 100%;
+        text-align: left;
+        transition: 0.3s all ease;
+    }
+
+    .main-menu ul li {
+        display: block;
+        border-bottom: 1px solid;
+        padding: 10px 0px;
+        background: #000;
+    }
+
+    .main-menu ul li a {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .navigation-area {
+        padding-bottom: 10px;
+    }
+
+    /* Toggler */
+    li.menu-toggle {
+        border: 1px solid #f5f1f1;
+        float: left;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    #main-menu i.fa.fa-close {
+        font-size: 34px;
+        z-index: 99999;
+        text-align: right;
+        display: block;
+        cursor: pointer;
+    }
+
+    .toggle-menu li {
+        cursor: pointer;
+        color: #000;
+        border: none;
+    }
+
+    ul.toggle-menu {
+        display: block;
+    }
+
+    /*=======Start categoriesContent=======*/
+    .categoriesContent {
+        margin-bottom: 30px;
+    }
+
+    .categoriesContent:nth-child(3) {
+        margin: 0;
+    }
+
+    .categoriesContent:nth-child(4) {
+        margin: 0;
+    }
+
+    .categoriesContent {
+        margin-bottom: 30px;
+    }
+
+    .categoriesContent:nth-child(3) {
+        margin: 0;
+    }
+
+    .categoriesContent:nth-child(4) {
+        margin: 0;
+    }
+
+    /*=======Start ourservice=======*/
+    #ourservice .service-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .single-service i.fa {
+        padding: 8px;
+    }
+
+    .single-service h4 {
+        font-size: 16px;
+        margin-right: -20px;
+    }
+
+    /*=======Start bestOffer=======*/
+    #bestOffer button.owl-next {
+        right: -20;
+    }
+
+    #bestOffer button.owl-prev {
+        left: -20px;
+    }
+
+    #bestOffer button.owl-next {
+        right: -20;
+    }
+
+    #bestOffer button.owl-prev {
+        left: -20px;
+    }
+    #ourservice .single-service {
+        margin-bottom: 30px;
+    }
     
-ul.toggle-menu {
-    display: block;
-}
+    #ourservice .single-service h4 {
+        margin-top: 70px;
+    }
+    /*=======Start testmonial-Slider=======*/
+    #testmonial-Slider button.owl-next {
+        right: -30px;
+    }
+
+    #testmonial-Slider .owl-nav button {
+        border: none;
+        color: #ffffff;
+    }
+
+    #testmonial-Slider button.owl-prev {
+        left: -30px;
+    }
 }
 
-
-@media (max-width: 1199.98px) { 
+@media (max-width: 1199.98px) {
     .header-info-box li a {
-        padding:3%;
+        padding: 3%;
         font-size: 14px;
         display: block;
     }
-    .search{
-        width:75%;
+
+    .search {
+        width: 75%;
     }
- }
+}
