@@ -5,7 +5,9 @@ $(document).ready(function () {
         nav: true,
         dots: true,
         loop: true,
-        autoPlay: false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         responsive: {
             0: {
                 items: 1,
@@ -24,7 +26,9 @@ $(document).ready(function () {
     $("#hotdealSlider").owlCarousel({
         items: 5,
         nav: true,
-        autoPlay: false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         margin: 15,
         dots: true,
         navText: [
@@ -49,7 +53,9 @@ $(document).ready(function () {
     $("#testmonial-Slider").owlCarousel({
         items: 2,
         nav: true,
-        autoPlay: false,
+        autoplay:true,
+        autoplayTimeout:7000,
+        autoplayHoverPause:true,
         margin: 15,
         dots: true,
         navText: [
