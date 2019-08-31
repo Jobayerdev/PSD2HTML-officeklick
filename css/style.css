@@ -994,10 +994,6 @@ footer i.fa {
     color: #000;
 }
 
-h3 {}
-
-.container {}
-
 section#bestOffer .section-tittle h3 {
     color: #000;
 }
@@ -1040,4 +1036,15 @@ section#categoriesSection .section-tittle h3 {
 
 #testmonial-Slider .owl-dots button.active {
     background: #ffff;
+}
+
+ul.toggle-menu {
+    display: none;
+}
+
+ul.toggle-menu i {
+    font-size: 34px;
+    color: #000;
+    text-align: center;
+    line-height: 34px;
 }
