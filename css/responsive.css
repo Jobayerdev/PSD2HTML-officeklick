@@ -339,18 +339,38 @@
          display: block;
          cursor: pointer;
     }
-     .menu-toggle {
-         width: 70px;
-         height: 70px;
-         cursor: pointer;
-         font-size: 46px;
-         color: #000;
+    .toggle-menu li {
+        cursor: pointer;
+        color: #000;
+        border: none;
     }
      .menu-toggle:before {
          content: '\f0c9';
          font-family: fontAwesome;
          line-height: 70px;
+         font-size: 34px;
          display: block;
          text-align: center;
     }
+    .header-info-box li:first-child{
+        border: none;
+    }
+    .search{
+        width: 100%;
+    }
 }
+
+
+@media (max-width: 1199.98px) { 
+    .header-info-box li a {
+        padding:3%;
+        font-size: 14px;
+        display: block;
+    }
+    .header-info-box li a .fa{
+        /* font-size: 100%; */
+    }
+    .search{
+        width:75%;
+    }
+ }
